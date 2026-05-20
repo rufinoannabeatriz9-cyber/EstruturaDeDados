@@ -9,7 +9,7 @@
 
 ---
 
-## ✨ Sobre o projeto
+# ✨ Sobre o projeto
 
 Esse projeto foi desenvolvido para praticar conceitos básicos de JavaScript utilizando:
 
@@ -20,14 +20,59 @@ Esse projeto foi desenvolvido para praticar conceitos básicos de JavaScript uti
 - `console.log()`.
 
 O sistema cria uma lista de alunos contendo:
-🔁 For
 
-O for serve para repetir algo várias vezes.
+✅ Nome  
+✅ Idade  
+✅ Disciplina preferida  
 
+Depois o programa:
+
+- mostra todos os alunos cadastrados;
+- exibe o nome do primeiro aluno;
+- mostra a disciplina favorita do último aluno.
+
+---
+
+# 🧠 Conceitos usados
+
+## 📦 Array
+
+Um array serve para armazenar vários valores em uma única variável.
+
+```javascript
+let frutas = ["Maçã", "Banana", "Uva"];
+```
+
+---
+
+## 🧩 Objeto
+
+Objetos servem para organizar informações.
+
+```javascript
+{
+  nome: "Ana",
+  idade: 16
+}
+```
+
+---
+
+## 🔁 For
+
+O `for` serve para repetir algo várias vezes.
+
+```javascript
 for(let i = 0; i < 5; i++) {
   console.log(i);
 }
-💻 Código do projeto
+```
+
+---
+
+# 💻 Código do projeto
+
+```javascript
 let alunos = [
     { nome: "Ana", idade: 16, disciplinaPreferida: "Matemática" },
     { nome: "Carlos", idade: 17, disciplinaPreferida: "História" },
@@ -55,35 +100,67 @@ alert(
     "Disciplina favorita do último aluno: " +
     alunos[4].disciplinaPreferida
 );
-🔍 Explicação do código
-📌 alunos.length
+```
+
+---
+
+# 🔍 Explicação do código
+
+## 📌 alunos.length
+
+```javascript
 alunos.length
+```
 
 Serve para mostrar quantos alunos existem no array.
 
 Resultado:
 
+```javascript
 5
-📌 alunos[0]
+```
+
+---
+
+## 📌 alunos[0]
+
+```javascript
 alunos[0]
+```
 
 Pega o primeiro aluno do array.
 
-📌 alunos[4]
+---
+
+## 📌 alunos[4]
+
+```javascript
 alunos[4]
+```
 
 Pega o último aluno do array.
 
-📌 i++
+---
+
+## 📌 i++
+
+```javascript
 i++
+```
 
 Significa:
 
+```javascript
 i = i + 1
+```
 
 Serve para passar para o próximo aluno.
 
-🎯 Resultado esperado
+---
+
+# 🎯 Resultado esperado
+
+```javascript
 Nome: Ana | Idade: 16 | Disciplina: Matemática
 
 Nome: Carlos | Idade: 17 | Disciplina: História
@@ -93,46 +170,39 @@ Nome: Marina | Idade: 15 | Disciplina: Biologia
 Nome: João | Idade: 16 | Disciplina: Geografia
 
 Nome: Lucas | Idade: 17 | Disciplina: Física
-🚀 O que aprendi
-
-✔ Criar arrays
-✔ Criar objetos
-✔ Utilizar for
-✔ Trabalhar com repetição
-✔ Mostrar informações na tela
-✔ Acessar dados específicos
-
-🛠 Tecnologias utilizadas
-JavaScript
-VS Code
-Navegador Web
-🌟 Melhorias futuras
-Cadastro de novos alunos;
-Remover alunos;
-Editar informações;
-Criar interface com HTML/CSS;
-Salvar dados.
-👩‍💻 Autora
-
-Anna Beatriz Rufino de Araújo ✨
-
-- ✅ Nome  
-- ✅ Idade  
-- ✅ Disciplina preferida  
-
-Depois o programa:
-
-- Mostra todos os alunos cadastrados;
-- Exibe o nome do primeiro aluno;
-- Mostra a disciplina favorita do último aluno.
+```
 
 ---
 
-## 🧠 Conceitos usados
+# 🚀 O que aprendi
 
-### 📦 Array
+✔ Criar arrays  
+✔ Criar objetos  
+✔ Utilizar `for`  
+✔ Trabalhar com repetição  
+✔ Mostrar informações na tela  
+✔ Acessar dados específicos  
 
-Um array serve para armazenar vários valores em uma única variável.
+---
 
-```javascript
-let frutas = ["Maçã", "Banana", "Uva"];
+# 🛠 Tecnologias utilizadas
+
+- JavaScript
+- VS Code
+- Navegador Web
+
+---
+
+# 🌟 Melhorias futuras
+
+- Cadastro de novos alunos;
+- Remover alunos;
+- Editar informações;
+- Criar interface com HTML/CSS;
+- Salvar dados.
+
+---
+
+# 👩‍💻 Autora
+
+**Anna Beatriz Rufino de Araújo** ✨
